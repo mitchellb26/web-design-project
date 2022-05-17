@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/* gold DFAF37 */
+/* black 000000 */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  background-color: #DFAF37;
+}
+.title h1 {
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+img {
+  display: grid;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+.hero {
+  min-height: 100vh;
+  display: grid;
+  /* width: 100vw; */
+  background-image: url("./Hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+
+
+}
+p {
+  display: grid;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+.Seniors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 2.5%;
+  width: 35%;
+  align-items: center;
+  justify-content: left;
+
+
+}
+.box h3 {
+  color: white;
+}
+.box img {
+  height: 10%;
+  width: 10%;
+}
+.coach {
+  display: flex;
+  flex-direction: column;
+
+align-items: center
+}
+.coach img {
+  display: grid;
+  height: 15%;
+  width: 15%;
+
+
+}
